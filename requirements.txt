@@ -1,0 +1,8 @@
+pandas
+transformers
+vaderSentiment
+matplotlib
+numpy
+torch
+TensorFlow
+accelerate

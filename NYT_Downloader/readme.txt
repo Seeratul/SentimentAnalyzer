@@ -1,0 +1,1 @@
+With an API key you can use downloader and dataculler to download and bring into shape data from the NYT API
