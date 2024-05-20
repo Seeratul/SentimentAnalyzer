@@ -1,5 +1,5 @@
 # SentimentAnalyzer
-The public-facing version of a sentiment analysis tool build for my bachelor thesis
+The public-facing version of a sentiment analysis tool build for my bachelor thesis, it uses the analyzers from TextBlob, VADER and SiEBERT
 
 
 Data:
