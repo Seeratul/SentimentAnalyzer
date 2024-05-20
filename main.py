@@ -22,8 +22,8 @@ if __name__ == "__main__" :
     keys = ' AI |Artificial Intelligence|robot| ai |Robot|artificial intelligence|AI '
 
     #Select the duration you analysis is supposed to span, will not work if  the years arent in the provied data.
-    ybase = 1987
-    ymax = 2017
+    ybase = 1986
+    ymax = 2016
 
     #select the sentiment mapper to use Vader and Textblob are reommended SiEBERT is also supported 
     #and FelixNB and FelixSVM are in the code but neither supported nor recommended nor good.
