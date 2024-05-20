@@ -65,9 +65,7 @@ def nb_scores(sentence):
     text= {'text': [sentence]}
     text = pd.DataFrame(text)
     loaded_nb = pickle.load(open(r'C:\Users\Seeratul\Documents\GitHub\BachelorThesis\code\fNaive_model.sav', 'rb'))
-    return vectroremapper(loaded_nb.predict(preprocesser(text)))  
-    
-
+    return vectroremapper(loaded_nb.predict(preprocesser(text)))      
 
 def sentimentmapper(df, scoring= "Vader"):
     """
@@ -96,7 +94,7 @@ def sentimentmapper(df, scoring= "Vader"):
     #renames the scores as they previously inherited the name title
     L = pd.concat([df,dfs], axis= 1)
     #concatonates both dataframes turning them into a list
-    dfn = pd.DataFrame(L, columns=["index", "year", "title", "exerpt", "scores"])
+    dfn = pd.DataFrame(L, columns=["index", "year", "title", "scores"])
     #turns the list back into a dataframe
     return dfn
 
